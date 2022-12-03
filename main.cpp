@@ -2,17 +2,14 @@
 #include "lib.h"
 using namespace std;
 
-int main() 
-{
+int main(){
     int num = 0;
     cin >> num;
-        if (num==1) 
-        {
+        if (num==1){
             cout << "numero non primo" << endl;
         } else if (numeri_primi(num, num/2)) {
             cout << " e un numero primo" << endl;
-        } else 
-        {
+        } else {
             cout << "numero non primo" << endl;
         }
         return 0;
