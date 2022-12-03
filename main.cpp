@@ -2,9 +2,6 @@
 #include "lib.h"
 using namespace std;
 
-int main(){
-  return 0;
-}
 int main() {
     int num = 0;
     cin >> num;
