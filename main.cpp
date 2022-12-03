@@ -3,12 +3,15 @@
 using namespace std;
 
 int main(){
+  return 0;
+}
+int main() {
     int num = 0;
     cin >> num;
-        if (num==1){
+        if (num==1) {
             cout << "numero non primo" << endl;
         } else if (numeri_primi(num, num/2)) {
-            cout << " e un numero primo" << endl;
+            cout << "numero primo" << endl;
         } else {
             cout << "numero non primo" << endl;
         }
